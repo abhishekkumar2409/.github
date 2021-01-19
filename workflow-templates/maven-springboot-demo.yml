@@ -16,7 +16,7 @@ on:
 jobs:
   # Checkmarx
   Checkmarx-SAST-Scan:
-    runs-on: ${{ runson }}
+    runs-on: $RUNSON
     steps:
       - name: Checkout
         uses: actions/checkout@v2
